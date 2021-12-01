@@ -1,0 +1,525 @@
+html, body{
+  height: 100%;
+  font-family: 'Alumni Sans', sans-serif;
+}
+
+/*Размер поиска*/
+
+* {box-sizing: border-box;}
+
+/* Шрифт на сайте */
+
+body {
+  margin: 0px;
+  background: #555555;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  animation-duration: 1s;
+  animation-name: anim4;
+}
+
+/*Главная*/
+
+.homeinf {
+  text-align: center;
+  width: 500px;
+  background-color: #999999;
+  padding: 5px 5px 5px 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  animation-duration: 1s;
+  animation-name: anim5;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+/*Інформаційна сторінка*/
+
+.inf {
+  text-align: center;
+  width: 50%;
+  background-color: #999999;
+  padding: 5px 5px 5px 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  animation-duration: 1s;
+  animation-name: anim4;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+/*Футер сайта*/
+
+footer {
+  animation-duration: 1s;
+  animation-name: anim4;
+}
+
+.footer {
+  font-size: 25px;
+  margin-top: auto;
+  background-color: #999999;
+  padding: 10px;
+  border-radius: 20px 20px 0px 0px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+
+}
+
+/* Кастомизация поиска */
+
+.search input {
+  width: 150px;
+  height: 35px;
+  padding-left: 10px;
+  background: #333333;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+  border: black;
+}
+
+.search button {
+  margin-top: 10px;
+  position: absolute; 
+  right: 0px;
+  width: 40px;
+  height: 35px;
+  background: #008080;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  border: black;
+}
+
+.search button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: black;
+}
+
+/*Кастомизация лого значка*/
+
+.logoi {
+  height: 46px;
+  float: left;
+  margin-right: 10px;
+
+}
+
+/* Кастомизация внутр панели > */
+
+.page {
+  overflow: hidden;
+  background-color: #222;
+  padding: 5px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+}
+
+/* Кастомизация кнопок */
+
+.page a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  background-color: #555555;
+  font-size: 25px;
+  margin-left: 5px;
+  animation-duration: 0.5s;
+  animation-name: anim2;
+  padding: 10px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+}
+
+/* Подсветка при выборе страницы  панели > */
+
+.page a:hover {
+  background-color: #008080;
+  color: black;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+/* Цвет выбранной страницы в панели */
+
+.page a.active {
+  background-color: #008080;
+  color: white;
+}
+
+.page .submit hover {
+  background-color: #008090;
+  color: black; 
+}
+
+/* Лого */
+
+#Logo a {
+  font-size: 40px;
+  color: #000;
+  text-decoration: none ;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+/*Окошки с товаром */
+
+.item {
+    width: 150px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #999999;
+    margin: 10px 10px 10px 10px;
+    animation-duration: 1s;
+    animation-name: anim4;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+    cursor: pointer;
+}
+
+.product {
+    width: 120px;
+    height: 130px;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    border-radius: 20px 20px 20px 20px;
+    animation-duration: 1s;
+    animation-name: anim4;
+}
+
+.caption {
+  font-size: 25px;
+  text-align: center;
+  animation-duration: 1s;
+  animation-name: anim4;
+  padding: 0px 5px 5px 5px;
+}
+
+/*Контент*/
+
+.allhe {
+  padding: 5px 5px 5px 5px;
+  background: #999999;
+  animation-duration: 1s;
+  animation-name: anim1;
+  border-radius: 0px 0px 20px 20px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+}
+
+/* Вспл окна */
+
+#shadow {
+  background: rgba(102, 102, 102, 0.75);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  animation-duration: 0.5s;
+  animation-name: anim4;
+  color: black;
+  z-index: 1;
+
+}
+
+#window {
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 20px;
+  color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 10%;
+  left: 0;
+  margin: auto;
+  background: #999999;
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+  animation-duration: 0.5s;
+  animation-name: anim5;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+#shadow:target {
+  display: block;
+  z-index: 1;
+}
+
+.close {
+  margin-top: auto;
+  color: white;
+  text-decoration: none;
+  background: #222;
+  font-size: 25pt;
+  cursor:pointer;
+  border-radius: 10px;
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+  z-index: 1;
+
+
+}
+
+form #field input {
+    border: 1px solid rgb(212, 212, 212);
+    height: 35px;
+    border-radius: 20px;
+    width: 100%;
+    flex: 1;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+    animation-duration: 0.5s;
+    animation-name: anim4;
+
+}
+
+button {
+    border: 1px solid rgb(212, 212, 212);
+    height: 35px;
+    border-radius: 20px;
+    user-select: none;
+    animation-duration: 0.5s;
+    animation-name: anim4;
+}
+
+/* Новости */
+
+.feed a {
+  display: flex;
+  text-align: left;
+  background-color: #999999;
+  padding: 5px 5px 5px 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px 10px 10px 10px;
+  animation-duration: 1s;
+  animation-name: anim4;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+}
+
+.product2 {
+  width: 120px;
+  height: 130px;
+  display: flex;
+  margin: 5px 15px 5px 5px;
+  border-radius: 20px 20px 20px 20px;
+  animation-duration: 1s;
+  animation-name: anim4;
+}
+
+/*Анимации*/
+
+@keyframes anim1 {
+  from {
+    margin-bottom: 5%;
+    width: 100%;
+    opacity:0; 
+    transition: 1s;
+  }
+  to {
+  }
+}
+
+@keyframes anim2 {
+  from {
+    margin-left: 5%;
+    opacity:0; 
+    transition: 1s;
+  }
+  to {
+  }
+}
+
+@keyframes anim4 {
+  from {
+    opacity:0; 
+    transition: 1s;
+  }
+  to {
+  }
+}
+
+@keyframes anim5 {
+  from {
+    width: 20%;
+    height: 20%;
+    opacity:0; 
+    transition: 1s;
+  }
+  to {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+/*Слайдер*/
+
+.wrapper {
+  height: 300px;
+  margin: 10px auto 0;
+  position: relative;
+  width: 200px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  z-index: auto;
+}
+
+.slider {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+  -webkit-box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+  -moz-box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+  -o-box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+  box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+  border-radius: 20px;
+
+}
+
+.slides {
+  height: 300px;
+  opacity: 0;
+  position: absolute;
+  width: 200px;
+  z-index: -1;
+  background-size: 200px 300px;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  border-radius: 20px;
+}
+
+.slide1 { background-image: url(Images/ПНИВ.jpeg);}
+.slide2 { background-image: url(Images/СКО.jpg); }
+.slide3 { background-image: url(Images/ВСХ.jpg); }
+.slide4 { background-image: url(Images/ДДРК.jpg); }
+.slide5 { background-image: url(Images/АДСЭМП.jpg); }
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5 {
+  opacity: 1;
+  z-index: -1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.wrapper > input {
+  display: none;
+}
+
+.wrapper .controls {
+  left: 50%;
+  margin-left: -98px;
+  position: absolute;
+}
+
+.wrapper label {
+  cursor: pointer;
+  display: inline-block;
+  height: 8px;
+  margin: 25px 12px 0 16px;
+  position: relative;
+  width: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: background ease-in-out .5s;
+  -moz-transition: background ease-in-out .5s;
+  -o-transition: background ease-in-out .5s;
+  transition: background ease-in-out .5s;
+}
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5) {
+  background: #ddd;
+}
+
+.wrapper label:after {
+  border: 2px solid #ddd;
+  content: " ";
+  display: block;
+  height: 12px;
+  left: -4px;
+  position: absolute;
+  top: -4px;
+  width: 12px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* Кнопка скролл */
+
+#scroller {
+    background-color: #999999; ;
+    display: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+    box-shadow: 3px 4px 2px 1px rgb(0 0 0 / 35%);
+    cursor: pointer;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+html:not([data-scroll='0']) #scroller { display: block; }
+
+
+
+
+
+
+
